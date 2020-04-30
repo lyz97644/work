@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app" />
+    <title>VIP特权中心-拇指游戏宝</title>
+    <style>
+      #YSF-BTN-HOLDER{
+          display: none;
+      }
+      .support {
+        background: #ccc;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 20;
+        display: none;
+      }
+      .links-guide {
+        position: relative;
+        margin: 50px auto 0 auto;
+        width: 320px;
+        height: auto;
+        padding: 10px 10px 10px 10px;
+        background-color: #fff;
+      }
+      .links-guide p {
+        font-size: 14px;
+        letter-spacing: 1px;
+        text-align: left;
+        width: 100%;
+        height: auto;
+        line-height: 1.6;
+      }
+      .browsers-info {
+        text-indent: 2em;
+      }
+      .emphasize-red {
+        color: red;
+      }
+      .browsers {
+        border: 1px solid #aaa;
+        padding-left: 8px;
+      }
+      .browsers a {
+        display: inline-block;
+        width: 84px;
+        height: 84px;
+        margin: 5px 3px;
+      }
+      .browsers a img {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <div class="support" id="support">
+      <div class="links-guide">
+        <p class="browsers-info emphasize-red">您的浏览器仅支持本网站的部分功能！</p>
+        <p class="browsers-info">推荐使用谷歌浏览器、火狐浏览器或者360浏览器极速模式等任何一款浏览器的最新版本访问本网站。</p>
+        <p class="browsers">
+          <a><img src="google.jpg" /></a>
+          <a><img src="firefox.jpg" /></a>
+          <a><img src="360.jpg" /></a>
+        </p>
+      </div>
+    </div>
+    <script>
+      (function (w, d, n, a, j) {
+            w[n] = w[n] || function () {
+                (w[n].a = w[n].a || []).push(arguments);
+            };
+            j = d.createElement('script');
+            j.async = true;
+            j.src ='https://qiyukf.com/script/bebe17d8997e309de8ad255b59c51a3e.js';
+            d.body.appendChild(j);
+        })(window, document, 'ysf');
+    </script>
+    <script>
+      console.log(window.navigator.userAgent);
+      if(window.navigator.userAgent.indexOf("MSIE")>=1 || window.navigator.userAgent.indexOf("Edge") > -1 || window.navigator.userAgent.indexOf("rv:11.0") > -1){
+        var supportTest = document.getElementById("support");
+        var body = document.getElementsByTagName("body")[0];
+        supportTest.style.display = "block"
+        body.style.overflow = "hidden";
+      }
+      var script1=document.createElement("script");
+      script1.type="text/javascript";
+      script1.src="http://james.padolsey.com/demos/grayscale/grayscale.js";
+      document.getElementsByTagName('head')[0].appendChild(script1); 
+
+      var script2=document.createElement("script");
+      script2.type="text/javascript";
+      script2.src="https://91muzhicom-1251304591.file.myqcloud.com/pic/activity/filter.js";
+      document.getElementsByTagName('head')[0].appendChild(script2); 
+
+    </script>
+  </body>
+</html>
